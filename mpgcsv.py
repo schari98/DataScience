@@ -18,7 +18,7 @@ print(type(mpeg))
 mpgover18=0
 for row in mpeg:
     if float(row['mpg']) >= 18:
-       mpgover18+=1
+       mpgover18 += 1
 print ('mpgover18', mpgover18)
 print ("keys", mpeg[0].keys())
 print (mpeg[0])
@@ -28,7 +28,7 @@ filehandle.close()
 '''
 Create an empty list and add dictionaries to it
 '''
-print ('Option 2')
+print('Option 2')
 mpegdict=[]
 filehandle = open('c:\\arris\projects\Data Science\mpg.csv','rt')
 mpeg = csv.DictReader(filehandle)
@@ -46,7 +46,7 @@ filehandle.close()
 
 
 mydict = [{'fname': 'John','lname':'Doe','city': "Atlanta"},
-            {'fname': 'Jane','lname':'Doe','city':'Macon'}]
+            {'fname': 'Jane','lname':'Doe', 'city':'Macon'}]
 print (mydict)
 print (mydict[0].keys())
 print (mydict[0].values())
