@@ -31,6 +31,7 @@ print('Indexing with a list',y)
 
 # append to an exiting array
 x= np.append(x,[101,102,103])
+x= np.append(x,[104,102,106])
 print('Appended',x)
 
 # increment with list comprehension
